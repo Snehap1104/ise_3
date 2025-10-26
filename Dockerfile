@@ -5,7 +5,7 @@ WORKDIR /app
 COPY . .
 
 # Compile
-RUN javac src/HelloWorld.java
+RUN javac src/Main.java
 
 # Run
 CMD ["java", "-cp", "src", "HelloWorld"]
