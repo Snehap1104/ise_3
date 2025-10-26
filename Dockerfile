@@ -8,4 +8,4 @@ COPY . .
 RUN javac src/Main.java
 
 # Run
-CMD ["java", "-cp", "src", "HelloWorld"]
+CMD ["java", "-cp", "src", "Main"]
