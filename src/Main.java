@@ -1,5 +1,7 @@
-public class HelloWorld {
+package com.example;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("👋 Hello, Jenkins + Docker World!");
+        System.out.println("Hello from Java Docker App!");
     }
 }
